@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Mystery profile picture: this could be you">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#1D4275"/>
+      <stop offset="0.6" stop-color="#132D52"/>
+      <stop offset="1" stop-color="#081629"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0" stop-color="#FFB347" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFB347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#050D1A"/>
+      <stop offset="1" stop-color="#02060D"/>
+    </linearGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <circle cx="100" cy="82" r="78" fill="url(#glow)"/>
+    <!-- hooded silhouette -->
+    <path fill="url(#body)" d="M100 38c-26 0-44 21-44 49 0 15 5 27 13 36-25 9-43 27-49 53l-3 24h166l-3-24c-6-26-24-44-49-53 8-9 13-21 13-36 0-28-18-49-44-49z"/>
+    <!-- shadowed face -->
+    <ellipse cx="100" cy="92" rx="25" ry="31" fill="#0B1F3A"/>
+    <!-- question mark -->
+    <text x="100" y="108" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-weight="800" font-size="46" fill="#FF8A00">?</text>
+  </g>
+</svg>

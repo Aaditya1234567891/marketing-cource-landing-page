@@ -1,0 +1,4 @@
+# For Netlify / Cloudflare Pages hosting
+# Makes browsers, including phones, save the brochure instead of opening it.
+/assets/*.pdf
+  Content-Disposition: attachment; filename=Future-Edge-PG-Diploma-Digital-Marketing-Brochure.pdf

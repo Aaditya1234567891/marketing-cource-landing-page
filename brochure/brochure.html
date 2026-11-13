@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Future Edge – PG Diploma in Digital Marketing – Brochure</title>
+<!--
+  Source for assets/future-edge-pg-diploma-brochure.pdf
+  Edit this file, then regenerate the PDF with Chrome:
+  chrome --headless --no-pdf-header-footer --print-to-pdf="assets/future-edge-pg-diploma-brochure.pdf" brochure/brochure.html
+-->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#0B1F3A;--navy2:#132D52;--orange:#FF8A00;--orange-d:#E67A00;--light:#FFB347;--teal:#0FA3A3;--cloud:#F4F7FB;--slate:#5B6678;--line:#E3E8F0}
+body{font-family:"Plus Jakarta Sans",Arial,sans-serif;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:10.5pt;line-height:1.5}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:18mm 16mm}
+.page:last-child{page-break-after:auto}
+h1,h2,h3{line-height:1.15;letter-spacing:-.01em}
+h2{font-size:22pt;font-weight:800;margin-bottom:4mm}
+h2 em{font-style:normal;color:var(--orange)}
+.eyebrow{font-size:8pt;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange-d);margin-bottom:2mm;display:block}
+.muted{color:var(--slate)}
+.foot{position:absolute;left:16mm;right:16mm;bottom:9mm;display:flex;justify-content:space-between;font-size:7.5pt;color:var(--slate);border-top:1px solid var(--line);padding-top:3mm}
+
+/* Cover */
+.cover{background:linear-gradient(140deg,var(--ink) 0%,var(--navy2) 60%,#1D4275 100%);color:#fff;padding:16mm}
+.cover-top{display:flex;align-items:center;gap:4mm}
+.cover-top img{width:20mm;height:20mm;border-radius:50%;background:#fff}
+.brand b{display:block;font-size:16pt;font-weight:800}
+.brand small{font-size:7.5pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFD23F}
+.cover-hero{margin-top:22mm}
+.cover-hero .eyebrow{color:var(--light)}
+.cover h1{font-size:38pt;font-weight:800;max-width:150mm}
+.cover h1 span{color:var(--light)}
+.cover p.lead{margin-top:6mm;font-size:12.5pt;color:#C9D4E5;max-width:150mm}
+.cover-img{margin-top:12mm;height:78mm;border-radius:6mm;overflow:hidden;position:relative}
+.cover-img img{width:100%;height:100%;object-fit:cover}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:10mm}
+.fact{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:4mm;padding:4mm}
+.fact b{display:block;font-size:17pt;font-weight:800;color:#fff}
+.fact span{font-size:8pt;color:#B9C6DA}
+.cover .foot{color:#B9C6DA;border-color:rgba(255,255,255,.15)}
+
+/* Overview */
+.two{display:grid;grid-template-columns:1.1fr 1fr;gap:10mm;align-items:start}
+.checks{list-style:none;display:grid;gap:2.5mm;margin-top:4mm}
+.checks li{display:flex;gap:3mm}
+.checks li::before{content:"✓";color:var(--orange);font-weight:800}
+.card{background:var(--cloud);border-radius:4mm;padding:6mm}
+.card h3{font-size:12pt;margin-bottom:3mm}
+.spec{display:flex;justify-content:space-between;padding:2.2mm 0;border-bottom:1px solid var(--line);font-size:9.5pt}
+.spec:last-child{border:0}
+.spec span{color:var(--slate)}
+
+/* Syllabus */
+.phases{display:grid;gap:4mm;margin-top:6mm}
+.phase{display:grid;grid-template-columns:42mm 1fr;gap:6mm;border-top:2px solid var(--ink);padding-top:4mm}
+.phase small{font-size:8pt;font-weight:700;color:var(--orange-d);text-transform:uppercase;letter-spacing:.06em}
+.phase h3{font-size:14pt;font-weight:800;margin:1mm 0}
+.phase p{font-size:8.5pt;color:var(--slate)}
+.mods{display:grid;grid-template-columns:1fr 1fr;gap:2mm 5mm;align-content:start}
+.mods div{font-size:9.5pt;display:flex;gap:2.5mm}
+.mods div b{color:var(--orange-d);font-size:8.5pt;min-width:6mm}
+
+/* Skills */
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm;margin-top:3mm}
+.skill{border-radius:4mm;overflow:hidden;background:var(--cloud)}
+.skill img{width:100%;height:17mm;object-fit:cover;display:block}
+.skill div{padding:3mm}
+.skill b{display:block;font-size:10pt}
+.skill span{font-size:8pt;color:var(--slate)}
+
+/* Projects + certs */
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin-top:3mm}
+.proj{border:1px solid var(--line);border-radius:4mm;overflow:hidden}
+.proj img{width:100%;height:19mm;object-fit:cover;display:block}
+.proj div{padding:3.5mm}
+.proj small{font-size:7.5pt;color:var(--slate)}
+.proj b{display:block;font-size:10.5pt;margin:1mm 0 2mm}
+.proj ul{padding-left:4mm;font-size:8.3pt;color:var(--slate)}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:3mm}
+.cert{border-radius:4mm;padding:4mm;background:var(--cloud);border:1px solid var(--line)}
+.cert.own{background:#FFF3E3;border-color:rgba(255,138,0,.4)}
+.cert small{font-size:7.5pt;font-weight:700;color:var(--teal);text-transform:uppercase}
+.cert.own small{color:var(--orange-d)}
+.cert b{display:block;font-size:10pt;margin-top:1mm}
+.cert span{font-size:8pt;color:var(--slate)}
+
+/* Founder + CTA */
+.founder{display:grid;grid-template-columns:44mm 1fr;gap:7mm;align-items:center;background:var(--cloud);border-radius:5mm;padding:5mm;margin-top:3mm}
+.founder img{width:44mm;height:54mm;object-fit:cover;border-radius:4mm}
+.founder h3{font-size:18pt;font-weight:800;margin:1mm 0 3mm}
+.fstats{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:5mm}
+.fstats div{background:#fff;border-radius:3mm;padding:3mm}
+.fstats b{display:block;font-size:14pt;color:var(--orange-d);font-weight:800}
+.fstats span{font-size:7.5pt;color:var(--slate);text-transform:uppercase}
+.mentor2{display:flex;gap:5mm;align-items:center;margin-top:4mm;border:1px solid var(--line);border-radius:4mm;padding:4mm 5mm}
+.mentor2 .av{width:14mm;height:14mm;border-radius:50%;background:linear-gradient(135deg,var(--orange),var(--light));color:#fff;display:grid;place-items:center;font-weight:800;font-size:12pt;flex:none}
+.mentor2 b{display:block;font-size:11pt}
+.mentor2 small{display:block;font-size:8pt;color:var(--orange-d);font-weight:700;margin-bottom:1mm}
+.mentor2 span{font-size:8.5pt;color:var(--slate)}
+.career{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5mm;margin-top:4mm}
+.career span{background:var(--cloud);border-radius:99px;padding:2mm 3mm;font-size:8.5pt;font-weight:600;text-align:center}
+.cta{margin-top:5mm;background:linear-gradient(120deg,var(--ink),var(--navy2));color:#fff;border-radius:5mm;padding:6mm 7mm;display:grid;grid-template-columns:1.2fr 1fr;gap:6mm;align-items:center}
+.cta h3{font-size:17pt;font-weight:800}
+.cta h3 span{color:var(--light)}
+.cta p{color:#C9D4E5;font-size:9.5pt;margin-top:2mm}
+.contact{display:grid;gap:1.8mm;font-size:9pt}
+.contact a{color:#fff;text-decoration:none;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:3mm;padding:1.8mm 3.5mm;display:block}
+.contact a b{color:var(--light);font-size:7.5pt;text-transform:uppercase;letter-spacing:.06em;display:block}
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1: COVER ============ -->
+<section class="page cover">
+  <div class="cover-top">
+    <img src="../assets/logo.png" alt="">
+    <div class="brand"><b>Future Edge</b><small>Digital Marketing</small></div>
+  </div>
+  <div class="cover-hero">
+    <span class="eyebrow">Program brochure</span>
+    <h1>PG Diploma in <span>Digital Marketing &amp; AI</span></h1>
+    <p class="lead">Agency-led training on live client accounts. Learn SEO, Meta Ads, Google Ads, AI automation and web development, then complete a 3-month paid agency internship.</p>
+  </div>
+  <div class="cover-img"><img src="../assets/img/students.jpg" alt=""></div>
+  <div class="facts">
+    <div class="fact"><b>3 + 3</b><span>months training + paid internship</span></div>
+    <div class="fact"><b>12</b><span>master modules</span></div>
+    <div class="fact"><b>20+</b><span>premium tools</span></div>
+    <div class="fact"><b>15+</b><span>global certifications</span></div>
+  </div>
+  <div class="foot"><span>futureedgedigitalmarketing.com</span><span>+91 63932 13527</span></div>
+</section>
+
+<!-- ============ PAGE 2: OVERVIEW + SYLLABUS ============ -->
+<section class="page">
+  <span class="eyebrow">Program overview</span>
+  <h2>Built to make you <em>job-ready</em>.</h2>
+  <div class="two">
+    <div>
+      <p class="muted">Future Edge Academy is run by an active digital marketing agency in Kanpur, so you learn inside a real agency. The course combines 3 months of intensive practical training with a 3-month agency internship, and turns beginners into job-ready digital marketing specialists.</p>
+      <ul class="checks">
+        <li>Live campaigns on real agency client accounts</li>
+        <li>AI-first: ChatGPT 4, Midjourney, Claude, Canva AI</li>
+        <li>3-month agency internship with stipend</li>
+        <li>Mentorship from the founder and senior growth leads</li>
+        <li>Resume, portfolio, mock interviews and job referrals</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>At a glance</h3>
+      <div class="spec"><span>Duration</span><b>4–6 months</b></div>
+      <div class="spec"><span>Training</span><b>3 months, 12 modules</b></div>
+      <div class="spec"><span>Internship</span><b>3 months, with stipend</b></div>
+      <div class="spec"><span>Batches</span><b>Kanpur · Online · Weekend</b></div>
+      <div class="spec"><span>Coding needed</span><b>None</b></div>
+      <div class="spec"><span>Placement rate</span><b>98%</b></div>
+      <div class="spec"><span>Certified</span><b>ISO 9001:2015</b></div>
+    </div>
+  </div>
+
+  <div class="phases">
+    <div class="phase"><div><small>Month 1</small><h3>Foundations</h3><p>Strategy, websites and search.</p></div>
+      <div class="mods"><div><b>01</b>Marketing fundamentals &amp; strategy</div><div><b>02</b>Website development &amp; landing pages</div><div><b>03</b>Search engine optimisation (SEO &amp; GEO)</div></div></div>
+    <div class="phase"><div><small>Month 2</small><h3>Ads, social &amp; content</h3><p>Paid and organic campaigns end to end.</p></div>
+      <div class="mods"><div><b>04</b>Google Ads masterclass</div><div><b>05</b>Meta Ads (Facebook &amp; Instagram)</div><div><b>06</b>Social media &amp; Reels growth</div><div><b>07</b>Content marketing &amp; copywriting</div></div></div>
+    <div class="phase"><div><small>Month 3</small><h3>Creatives, AI &amp; career</h3><p>Design, video, automation and analytics.</p></div>
+      <div class="mods"><div><b>08</b>Graphic design &amp; creatives</div><div><b>09</b>Short-form video editing</div><div><b>10</b>AI tools &amp; automation</div><div><b>11</b>GA4 analytics &amp; reporting</div><div><b>12</b>Freelancing &amp; job placement</div></div></div>
+    <div class="phase"><div><small>Months 4–6</small><h3>Agency internship</h3><p>Live client projects, with stipend.</p></div>
+      <div class="mods"><div><b>★</b>3-month internship at Future Edge Agency or a partner firm</div><div><b>★</b>Client recommendations and portfolio proof</div></div></div>
+  </div>
+  <div class="foot"><span>Future Edge · PG Diploma in Digital Marketing</span><span>2</span></div>
+</section>
+
+<!-- ============ PAGE 3: SKILLS, PROJECTS, CERTIFICATIONS ============ -->
+<section class="page">
+  <span class="eyebrow">Skills</span>
+  <h2>What you'll be able to do.</h2>
+  <div class="skills">
+    <div class="skill"><img src="../assets/img/seo.jpg" alt=""><div><b>SEO</b><span>Rank sites on Google</span></div></div>
+    <div class="skill"><img src="../assets/img/ads.jpg" alt=""><div><b>Google Ads</b><span>Search, display, YouTube</span></div></div>
+    <div class="skill"><img src="../assets/img/meta.jpg" alt=""><div><b>Meta Ads</b><span>Facebook &amp; Instagram</span></div></div>
+    <div class="skill"><img src="../assets/img/social.jpg" alt=""><div><b>Social media</b><span>Content that grows</span></div></div>
+    <div class="skill"><img src="../assets/img/copywriting.jpg" alt=""><div><b>Copywriting</b><span>Words that convert</span></div></div>
+    <div class="skill"><img src="../assets/img/analytics.jpg" alt=""><div><b>GA4 analytics</b><span>Track what matters</span></div></div>
+    <div class="skill"><img src="../assets/img/digital-marketing.jpg" alt=""><div><b>Design &amp; video</b><span>Canva, Photoshop, CapCut</span></div></div>
+    <div class="skill"><img src="../assets/img/ai.jpg" alt=""><div><b>AI for marketing</b><span>ChatGPT, Midjourney, automation</span></div></div>
+  </div>
+
+  <span class="eyebrow" style="margin-top:6mm">Client briefs</span>
+  <h2>Live client work for your portfolio.</h2>
+  <div class="projects">
+    <div class="proj"><img src="../assets/img/strategy.jpg" alt=""><div><small>Brief #01 · D2C brand</small><b>SEO growth plan</b><ul><li>Technical SEO audit</li><li>Keyword &amp; competitor research</li><li>3-month link plan</li></ul></div></div>
+    <div class="proj"><img src="../assets/img/students.jpg" alt=""><div><small>Brief #02 · Edtech startup</small><b>Paid ads launch</b><ul><li>Audiences &amp; personas</li><li>Google &amp; Meta campaigns</li><li>CPA and ROAS reporting</li></ul></div></div>
+    <div class="proj"><img src="../assets/img/cafe.jpg" alt=""><div><small>Brief #03 · Café chain</small><b>Social brand revamp</b><ul><li>Content pillars</li><li>30-day calendar</li><li>Creator collaboration</li></ul></div></div>
+  </div>
+
+  <span class="eyebrow" style="margin-top:6mm">Certification path</span>
+  <h2>Certified, agency-led training.</h2>
+  <div class="certs">
+    <div class="cert own"><small>Issued by Future Edge</small><b>Course certificate</b><span>After all 12 master modules</span></div>
+    <div class="cert own"><small>Issued by Future Edge</small><b>Internship certificate</b><span>After your 3-month agency internship</span></div>
+    <div class="cert"><small>Google · exam prep</small><b>Google Ads</b><span>Guided prep for Google's Ads exams</span></div>
+    <div class="cert"><small>Google · exam prep</small><b>Google Analytics</b><span>Guided prep for the GA4 exam</span></div>
+    <div class="cert"><small>Meta · exam prep</small><b>Meta certification</b><span>Guided prep for Meta's certification</span></div>
+    <div class="cert"><small>15+ global</small><b>More certifications</b><span>Search, social, analytics and AI</span></div>
+  </div>
+  <div class="foot"><span>Future Edge · PG Diploma in Digital Marketing</span><span>3</span></div>
+</section>
+
+<!-- ============ PAGE 4: FOUNDER + CAREERS + CONTACT ============ -->
+<section class="page">
+  <span class="eyebrow">Your mentors</span>
+  <h2>Learn from active agency leaders.</h2>
+  <div class="founder">
+    <img src="https://futureedgedigitalmarketing.com/assets/vivekprofile-BGVRGoQr.jpg" alt="">
+    <div>
+      <span class="eyebrow">Founder &amp; Chief Growth Strategist</span>
+      <h3>Vivek Singh Bhadauriya</h3>
+      <p class="muted">An MBA-qualified digital strategist, Vivek has spent 8+ years scaling businesses and has mentored 500+ students across North India. He founded Future Edge Digital Marketing in Kanpur and serves as Kanpur District Secretary of the UP Business Association.</p>
+      <div class="fstats"><div><b>8+ yrs</b><span>Experience</span></div><div><b>₹5Cr+</b><span>Ad spend managed</span></div><div><b>500+</b><span>Students mentored</span></div></div>
+    </div>
+  </div>
+
+  <div class="mentor2"><div class="av">PV</div><div><b>Priya Verma</b><small>Senior Performance Marketing Lead</small><span>Meta Ads scaling, CBO campaign architecture, GA4 attribution and high-ROI lead generation for B2B and D2C brands.</span></div></div>
+
+  <span class="eyebrow" style="margin-top:7mm">Career paths</span>
+  <h2>Where this program can take you.</h2>
+  <div class="career">
+    <span>Digital Marketing Executive</span><span>SEO Specialist</span><span>Performance Marketer</span>
+    <span>Social Media Manager</span><span>Content Strategist</span><span>Marketing Analyst</span>
+    <span>Email &amp; CRM Marketer</span><span>Freelancer</span><span>Agency Owner</span>
+  </div>
+
+  <div class="cta">
+    <div>
+      <h3>Ready to start? <span>Talk to a counsellor.</span></h3>
+      <p>Book a free 1-on-1 counselling call. Ask about fees, EMI plans and batch modes: Kanpur classroom, live online, or weekend.</p>
+    </div>
+    <div class="contact">
+      <a href="tel:+916393213527"><b>Call</b>+91 63932 13527</a>
+      <a href="https://wa.me/916393213527"><b>WhatsApp</b>wa.me/916393213527</a>
+      <a href="mailto:futureedgedigitalmarketing@gmail.com"><b>Email</b>futureedgedigitalmarketing@gmail.com</a>
+      <a href="https://futureedgedigitalmarketing.com/"><b>Website</b>futureedgedigitalmarketing.com</a>
+    </div>
+  </div>
+  <div class="foot"><span>© Future Edge Digital Marketing · Kanpur, Uttar Pradesh</span><span>4</span></div>
+</section>
+
+</body>
+</html>
